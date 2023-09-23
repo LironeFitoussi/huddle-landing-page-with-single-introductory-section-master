@@ -15,12 +15,12 @@ body {
   z-index: -100;
 }
 
-article {
+main {
   display: flex;
   color: #ffffff;
 }
 
-main {
+article {
   display: flex;
 }
 

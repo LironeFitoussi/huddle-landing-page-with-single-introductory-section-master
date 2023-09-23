@@ -4,7 +4,7 @@ body {
     background-size: contain;
 }
 
-article {
+main {
     flex-direction: column;
     margin: 6vh 5vw;
 }
@@ -14,7 +14,7 @@ article {
     margin-bottom: 10.5vh;
 }
 
-main {
+article {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
 }

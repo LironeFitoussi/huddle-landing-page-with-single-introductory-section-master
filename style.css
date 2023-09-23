@@ -5,6 +5,9 @@ body {
   font-size: 400;
 }
 
+#backgroundIMG {
+  position: absolute;
+}
 .attribution {
   font-size: 11px;
   text-align: center;

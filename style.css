@@ -36,6 +36,7 @@ h1{
 button {
   border: 0 none;
   border-radius: 100vh;
+  background-color: #ffffff;
   color: hsl(257, 40%, 49%);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: all .5s;

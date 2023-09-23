@@ -1,7 +1,7 @@
 body {
     background-image: url(./images/bg-desktop.svg);
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: contain;
 }
 
 article {
@@ -11,12 +11,12 @@ article {
 
 #logoSvg {
     width: 15vw;
-    margin-bottom: 9vh;
+    margin-bottom: 10.5vh;
 }
 
 main {
     display: grid;
-    grid-template-columns: 1.2fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
 }
 
 #itemSvg {

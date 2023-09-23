@@ -1,15 +1,29 @@
+body {
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 article {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1.20fr 1fr;
+    grid-template-rows: 0.3fr 1fr .2fr;
     margin: 5vw;
+    gap: 0;
 }
 
 #logoSvg {
-    width: 40vh;
+    width: 20vh;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 #itemSvg {
-    width: 50vw;
+    width: 55vw;
+}
+
+.social {
+    grid-column-start: 2;
+    justify-self: end;
+    gap: 1vw;
 }

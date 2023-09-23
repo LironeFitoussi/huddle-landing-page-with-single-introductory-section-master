@@ -2,12 +2,25 @@
 
 body {
   background-color: hsl(257, 40%, 49%);
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 400;
+  margin: 0;
+  padding: 0;
+  height: fit-content;
 }
 
 #backgroundIMG {
   position: absolute;
+  z-index: -100;
 }
+
+article {
+  display: flex;
+  margin: 8vw;
+  color: #ffffff;
+}
+
+/* Footer */
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -25,3 +38,6 @@ body {
   /* Soft Magenta */
   color: hsl(300, 69%, 71%);
 }
+
+
+

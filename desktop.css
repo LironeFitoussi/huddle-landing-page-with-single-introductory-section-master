@@ -1,3 +1,15 @@
-body {
-    background-color: red;
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 5vw;
+}
+
+#logoSvg {
+    width: 40vh;
+}
+
+#itemSvg {
+    width: 50vw;
 }

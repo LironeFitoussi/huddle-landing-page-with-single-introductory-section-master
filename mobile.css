@@ -11,6 +11,9 @@ article {
     text-align: center;
 }
 
+main {
+    flex-direction: column;
+}
 #logoSvg {
     align-self: start;
     width: 33vw;
@@ -28,4 +31,8 @@ button {
   font-size: 14px;
   font-weight: 300;
 }
+
+footer {
+    position: relative;
+  }
 

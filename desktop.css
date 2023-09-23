@@ -1,29 +1,49 @@
 body {
     background-image: url(./images/bg-desktop.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
 }
 
 article {
-    display: grid;
-    grid-template-columns: 1.20fr 1fr;
-    grid-template-rows: 0.3fr 1fr .2fr;
-    margin: 5vw;
-    gap: 0;
+    flex-direction: column;
+    margin: 6vh 5vw;
 }
 
 #logoSvg {
-    width: 20vh;
-    grid-column-start: 1;
-    grid-column-end: 3;
+    width: 15vw;
+    margin-bottom: 9vh;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
 }
 
 #itemSvg {
-    width: 55vw;
+    width: 100%;
+}
+
+.textContent {
+    padding: 8vh;
+    gap: 2.5vh;
+}
+
+h1 {
+    font-size: 2.5vw;
+}
+
+button {
+    width: 40%;
+    padding: 1.5vh;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .social {
-    grid-column-start: 2;
-    justify-self: end;
+    justify-content: flex-end;
     gap: 1vw;
+}
+
+footer {
+    position: absolute;
 }

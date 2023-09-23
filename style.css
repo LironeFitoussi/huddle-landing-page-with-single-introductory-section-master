@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
 body {
   background-color: hsl(257, 40%, 49%);
@@ -29,6 +29,18 @@ h1{
   font-weight: 600;
 }
 
+button {
+  border: 0 none;
+  border-radius: 100vh;
+  color: hsl(257, 40%, 49%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all .5s;
+}
+
+button:hover {
+  color: #ffffff;
+  background-color: hsl(300, 69%, 71%);
+}
 /* Footer */
 .attribution {
   font-size: 11px;

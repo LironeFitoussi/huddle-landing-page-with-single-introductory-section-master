@@ -16,6 +16,14 @@ article {
 }
 
 .textContent {
+    margin-top: 0;
     align-items: center;
-    gap: 2vh;
+    gap: 3vh;
+}
+
+button {
+  width: 65%;
+  padding: 1.5vh;
+  font-size: 14px;
+  font-weight: 300;
 }

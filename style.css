@@ -11,12 +11,13 @@ body {
 
 #backgroundIMG {
   position: absolute;
+  top: 0;
   z-index: -100;
 }
 
 article {
   display: flex;
-  margin: 8vw;
+
   color: #ffffff;
 }
 

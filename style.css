@@ -3,7 +3,7 @@
 body {
   background-color: hsl(257, 40%, 49%);
   font-family: 'Open Sans', sans-serif;
-  font-size: 400;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   height: fit-content;
@@ -41,6 +41,31 @@ button:hover {
   color: #ffffff;
   background-color: hsl(300, 69%, 71%);
 }
+
+.social {
+  display: flex;
+  flex-direction: row;
+  gap: 3vw;
+}
+
+
+span {
+  display: flex;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  width: 4vh;
+  aspect-ratio: 1 / 1;
+  border-radius: 100%;
+  transition: all .5s;
+}
+
+span:hover {
+  border: solid 1px hsl(300, 69%, 71%);
+  color: hsl(300, 69%, 71%);
+}
+
 /* Footer */
 .attribution {
   font-size: 11px;
